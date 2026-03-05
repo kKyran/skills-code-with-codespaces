@@ -2,6 +2,10 @@
   "name": "Basic Dev Environment",
   "image": "mcr.microsoft.com/devcontainers/base:debian",
   "features": {
-    "ghcr.io/devcontainers/features/python:1": {}
-  }
+    "ghcr.io/devcontainers/features/python:1": {
+
+    }
+  },
+  "postCreateCommand": ".devcontainer/postCreate.sh"
+  
 }
