@@ -3,7 +3,8 @@
   "image": "mcr.microsoft.com/devcontainers/base:debian",
   "features": {
     "ghcr.io/devcontainers/features/python:1": {
-
+       "version": "3.10"
+    }
     },
     "customizations": {
       "vscode": {
@@ -12,7 +13,6 @@
           "ms-python.debugpy"
         ]
       }
-    }
   },
   "postCreateCommand": ".devcontainer/postCreate.sh"
   
